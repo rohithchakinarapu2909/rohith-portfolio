@@ -91,12 +91,40 @@ body {
 
 
 
+/* NAVBAR LINK COLORS */
 .navbar a {
-    color: #cccccc;
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
     transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+/* LIGHT MODE */
+:root[data-theme="light"] .navbar a {
+    color: #333;  /* dark gray for readability */
+}
+
+:root[data-theme="light"] .navbar a:hover {
+    color: #000;  /* full black on hover */
+}
+
+:root[data-theme="light"] .navbar a.active {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+/* DARK MODE */
+:root[data-theme="dark"] .navbar a {
+    color: #cccccc; /* original soft gray */
+}
+
+:root[data-theme="dark"] .navbar a:hover {
+    color: #ffffff;
+}
+
+:root[data-theme="dark"] .navbar a.active {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 
 .navbar a:hover {
