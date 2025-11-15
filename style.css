@@ -79,10 +79,11 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    box-sizing: border-box; 
     display: flex;
     justify-content: space-between;   /* LEFT = links | RIGHT = button */
     align-items: center;
-    padding: 20px 40px;               /* FIX: prevents right-side cutoff */
+    padding: 20px 60px;               /* FIX: prevents right-side cutoff */
     background: var(--nav-bg);
     backdrop-filter: blur(10px);
     z-index: 1000;
@@ -308,6 +309,7 @@ body {
     border: 1px solid var(--text-muted);
     cursor: pointer;
     margin-left: 20px;
+    margin-right: 10px; 
     transition:
         background 0.25s ease,
         color 0.25s ease,
