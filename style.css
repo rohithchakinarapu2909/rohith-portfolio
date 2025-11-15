@@ -172,3 +172,76 @@ body {
     font-size: 14px;
     border-top: 1px solid rgba(255, 255, 255, 0.07);
 }
+
+/* ------------------------------ */
+/* MOBILE RESPONSIVE DESIGN      */
+/* ------------------------------ */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 12px 0;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+
+    /* HOMEPAGE */
+    .home-container {
+        margin-top: 120px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .name {
+        font-size: 36px;
+    }
+
+    .tagline {
+        font-size: 16px;
+    }
+
+    .desc {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .resume-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    /* INNER PAGES */
+    .page-container {
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    .page-title {
+        font-size: 28px;
+    }
+
+    /* CARDS */
+    .card {
+        padding: 20px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* FOOTER */
+    .footer {
+        font-size: 12px;
+        padding: 20px 0;
+    }
+}
