@@ -139,6 +139,28 @@ body {
 }
 
 /* ------------------------------ */
+/* RESUME DOWNLOAD BUTTON         */
+/* ------------------------------ */
+
+.resume-btn {
+    margin-top: 25px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 8px;
+    background: #ffffff15;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #ffffff30;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.resume-btn:hover {
+    background: #ffffff25;
+    border-color: #ffffff60;
+}
+
+/* ------------------------------ */
 /* FOOTER                         */
 /* ------------------------------ */
 
