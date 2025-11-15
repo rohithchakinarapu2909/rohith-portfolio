@@ -75,13 +75,14 @@ body {
     top: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 20px 0;
+    justify-content: space-between;   /* FIX: pushes links left, toggle right */
+    align-items: center;
+    padding: 20px 40px;
     background: var(--nav-bg);
     backdrop-filter: blur(10px);
     z-index: 1000;
 }
+
 
 .navbar a {
     color: #cccccc;
