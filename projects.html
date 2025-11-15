@@ -74,6 +74,25 @@ document.addEventListener("DOMContentLoaded", () => {
 <footer class="footer">
     © 2025 Rohith Chakinaparu · Portfolio
 </footer>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const root = document.documentElement;
+    const toggle = document.querySelector(".theme-toggle");
+
+    // Load previously saved theme
+    const saved = localStorage.getItem("theme");
+    if (saved) {
+        root.setAttribute("data-theme", saved);
+    }
+
+    // Toggle theme
+    toggle.addEventListener("click", () => {
+        const current = root.getAttribute("data-theme") === "light" ? "dark" : "light";
+        root.setAttribute("data-theme", current);
+        localStorage.setItem("theme", current);
+    });
+});
+</script>
 
 </body>
 </html>
