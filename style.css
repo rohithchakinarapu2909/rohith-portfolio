@@ -287,22 +287,29 @@ body {
     }
 }
 
+
+
 /* ===============================
    THEME TOGGLE BUTTON
    =============================== */
-
 .theme-toggle {
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    background: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--text-muted);
     cursor: pointer;
-    background: #ffffff22;
-    backdrop-filter: blur(10px);
-    transition: 0.3s ease;
     margin-left: 20px;
+    transition:
+        background 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.15s ease;
 }
 
 .theme-toggle:hover {
-    background: #ffffff44;
+    background: var(--text-muted);
+    color: var(--bg-color);
+    transform: translateY(-1px);
 }
