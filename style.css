@@ -75,13 +75,14 @@ body {
     top: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;   /* FIX: pushes links left, toggle right */
+    justify-content: space-between;   /* LEFT = links | RIGHT = button */
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 40px;               /* FIX: prevents right-side cutoff */
     background: var(--nav-bg);
     backdrop-filter: blur(10px);
     z-index: 1000;
 }
+
 
 
 .navbar a {
