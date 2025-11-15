@@ -1,8 +1,8 @@
-/* Apple Minimal Grey Theme */
+/* Apple Minimal Black Theme */
 
 body {
     margin: 0;
-    background: #f3f4f6;
+    background: #0d0d0d;          /* Pure Apple-black background */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -18,18 +18,18 @@ body {
 .name {
     font-size: 50px;
     font-weight: 600;
-    color: #111;
+    color: #ffffff;               /* Pure white premium Apple text */
     margin: 0;
 }
 
 .tagline {
     font-size: 20px;
-    color: #555;
+    color: #b5b5b5;               /* Soft grey, Apple-style */
     margin-top: 10px;
 }
 
 .desc {
     margin-top: 20px;
     font-size: 18px;
-    color: #777;
+    color: #8c8c8c;               /* Light grey for softer contrast */
 }
