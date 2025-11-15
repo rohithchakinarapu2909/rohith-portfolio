@@ -101,6 +101,10 @@ body {
     color: #ffffff;
     border-bottom: 2px solid #ffffff;
 }
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
 
 /* ------------------------------ */
 /* PAGE CONTAINER + SECTION TITLE */
