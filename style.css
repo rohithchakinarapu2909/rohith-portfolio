@@ -33,3 +33,37 @@ body {
     font-size: 18px;
     color: #8c8c8c;               /* Light grey for softer contrast */
 }
+
+/* ------------------------------ */
+/* PREMIUM APPLE FADE NAVBAR     */
+/* ------------------------------ */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
+    background: rgba(0,0,0,0.6);     /* Transparent top bar */
+    backdrop-filter: blur(10px);     /* Apple blur effect */
+}
+
+.navbar a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+    opacity: 1;
+}
+
+/* Move content slightly down so it doesn't hide behind navbar */
+.container {
+    margin-top: 120px;
+}
