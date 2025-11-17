@@ -179,11 +179,15 @@ body {
         box-shadow 0.25s ease,
         background 0.3s ease;
 }
-/* Special card style for the project poster */
 .poster-container {
-    background: #ffffff;   /* white background */
-    color: #000000;        /* black text */
+    background: #ffffff;
+    color: #000000;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 1500px;        /* wider card */
+    margin: auto;
 }
+
 
 
 .card:hover {
@@ -382,11 +386,16 @@ body {
 }
 
 .poster-img {
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
+    width: 100%;            /* fill screen width */
+    height: auto;           /* keep proportions */
+    max-width: 1400px;      /* allow bigger size */
     display: block;
-    margin: 20px auto;
+    margin: 0 auto 40px;    /* space below */
     border-radius: 12px;
+}
+/* Make this project page wider + cleaner */
+body.newsroom-page .page-container {
+    max-width: 1500px;
+    width: 95%;
 }
 
