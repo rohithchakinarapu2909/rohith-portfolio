@@ -362,3 +362,12 @@ body {
     color: var(--bg-color);
     transform: translateY(-1px);
 }
+
+.poster-img {
+    width: 100%;
+    max-width: 1100px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.15);
+}
+
