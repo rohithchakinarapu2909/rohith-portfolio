@@ -179,6 +179,12 @@ body {
         box-shadow 0.25s ease,
         background 0.3s ease;
 }
+/* Special card style for the project poster */
+.poster-container {
+    background: #ffffff;   /* white background */
+    color: #000000;        /* black text */
+}
+
 
 .card:hover {
     transform: translateY(-6px) scale(1.015);
@@ -380,7 +386,7 @@ body {
     max-width: 1000px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 12px;
 }
 
