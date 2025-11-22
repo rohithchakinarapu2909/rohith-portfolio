@@ -263,32 +263,31 @@ body {
    🎯 POSTER PAGES (Newsroom + Stock)
    ========================================================== */
 
-
-
-/* UNIVERSAL POSTER FIX */
+/* Universal poster image fix */
 .poster-img {
     width: 100%;
     height: auto;
-    max-width: 1400px;
-    max-height: 95vh;      /* prevents huge posters from exploding the layout */
-    object-fit: contain;   /* keeps full poster visible */
+    max-width: 1600px;   /* allows large posters */
+    max-height: none;    /* FULL scrollable height */
+    object-fit: contain;
     display: block;
     margin: 20px auto;
     border-radius: 12px;
 }
 
-/* Poster page layout fix */
+/* Poster container wrapper */
 body.poster-page .poster-container {
     background: #ffffff;
     padding: 20px;
     border-radius: 12px;
     margin: auto;
-    max-width: 1500px;
+    max-width: 1600px;
 }
 
+/* Override the default 900px layout */
 body.poster-page .page-container {
-    max-width: 1600px;
-    width: 95%;
+    max-width: 1600px !important;
+    width: 95% !important;
 }
 
 /* ------------------------------ */
