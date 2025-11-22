@@ -286,6 +286,32 @@ body.poster-page .poster-img {
     border-radius: 12px;
 }
 
+/* UNIVERSAL POSTER FIX */
+.poster-img {
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    max-height: 95vh;      /* prevents huge posters from exploding the layout */
+    object-fit: contain;   /* keeps full poster visible */
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+/* Poster page layout fix */
+body.poster-page .poster-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    margin: auto;
+    max-width: 1500px;
+}
+
+body.poster-page .page-container {
+    max-width: 1600px;
+    width: 95%;
+}
+
 /* ------------------------------ */
 /* MOBILE RESPONSIVE */
 /* ------------------------------ */
